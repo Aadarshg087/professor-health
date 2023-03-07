@@ -8,7 +8,7 @@
   animation-iteration-count: initial;
 }
 
-@keyframes example-animation {
+/* @keyframes example-animation {
   0% {
     background-color: red;
   }
@@ -49,7 +49,7 @@
     background-color: black;
     color: white;
   }
-}
+} */
 
 header {
   display: flex;
@@ -83,11 +83,15 @@ main {
   /* border: 2px solid black; */
   height: 90vh;
   display: flex;
+  background: url("./img/pexels-karl-solano-2729899.jpg") no-repeat center
+    center/cover;
+  /* border: 2px solid black; */
 }
 .main-content {
   /* border: 2px solid black; */
-  width: 40%;
-  margin: 10rem 10rem;
+  width: 50%;
+  padding-top: 14rem;
+  padding-left: 10rem;
 }
 
 .main-content h1 {
@@ -102,7 +106,7 @@ main {
 .main-content p {
   /* border: 2px solid black; */
   width: 65%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .main-content input {
@@ -120,6 +124,22 @@ main {
   border-radius: 0 5px 5px 0;
 }
 
-.main-img {
-  /* border: 2px solid black; */
+section {
+  border: 2px solid black;
+  padding: 5rem 0rem;
+}
+.sub1 {
+  display: flex;
+}
+.sub1-left {
+  width: 50%;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+.sub1-right {
+  width: 50%;
+}
+.sub1-right img {
+  display: block;
+  margin: auto;
 }
